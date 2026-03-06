@@ -1,0 +1,10 @@
+from EmotionDetection import emotion_detector
+
+# Test sentence
+text_to_analyze = "I am glad this happened"
+
+# Call the function
+response = emotion_detector(text_to_analyze)
+
+# Print the result
+print(response)
